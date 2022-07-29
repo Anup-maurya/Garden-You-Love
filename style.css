@@ -1,0 +1,143 @@
+body{
+    height: 100vh;
+    font-family: "Allerta",sans-serif;
+    background: #F4F3F8;
+    overflow-y: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NavBar */
+
+#navbarMonstera{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    padding: 20px 30px;
+    font-family: 'Allerta',sans-serif;
+
+}
+
+#navMid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;    
+    
+}
+
+#navMid div:first-child {
+    grid-column-start: 2;
+  }
+
+#navMid div h4:hover {
+   color: rgb(0, 0, 0);
+   border-bottom: 2px solid #000;
+   cursor: pointer;
+   width: fit-content;
+   padding-bottom: 2px;
+  }
+
+#navEnd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+ 
+}
+
+/* Hero Section */
+
+#midWhole{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    align-items: center;    
+}
+
+#midWhole1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#imgMain {
+   
+    width: 450px;
+    margin-right: 0;
+     
+}
+
+#monstera{
+    font-size: 110px;   
+    top:225;
+    left: 215;
+
+    font-family: "Allerta";
+    font-size: 6rem;
+ }
+
+ #midWholePart121 {
+    background-color: #466d50;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    border-radius: 50px;
+    padding: 8px 10px;
+    cursor: pointer;
+    flex-direction: row;
+    margin: 20px 0px;
+ }
+
+ #midWholePart122 >img {
+    display: flex;
+    align-items: center;
+    height:20px;
+    padding-left: 5px;
+ }
+
+ul li text{
+    font-size: 3px;
+}
+
+ #midWholePart121 h1{
+    font-size: 29px;
+    font-weight: 300;
+ }
+ /* Bottom cards */
+
+
+   #midWholePart13{
+    display: flex;
+    flex: 1fr 1fr 1fr ;
+   
+    
+  }
+  
+  .midWholePart13Parts{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .midWholePart13Parts img{
+    height: 50px;
+    width: 50px;
+    padding: 0px 5px;
+   }
+  
+   .midWholePart13Parts h4{
+    font-size: 17px;
+    font-family: "Allerta",sans-serif;
+   }
+   .midWholePart13Parts p{
+    font-size: 0.8rem;
+    font-weight: 100;
+    font-family: "Allerta",sans-serif;
+   }
+  
+
+#midWhole #midWholePart11 ul li {
+    max-width: 670px;
+    font-size: 16px;
+}
